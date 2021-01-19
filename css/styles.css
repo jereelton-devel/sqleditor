@@ -1,0 +1,230 @@
+
+* {
+    font-family: "Myriad Pro", sans-serif;
+}
+
+body {
+    background: rgb(90,54,181);
+    background: linear-gradient(305deg, rgba(90,54,181,0.8407563709077381) 0%, rgba(29,23,42,1) 100%);
+}
+
+#container-tools {
+    width: 86%;
+    padding: 0px;
+    margin: 0px;
+    height: 85%;
+    position: fixed;
+    z-index: 2000;
+    left: 7%;
+    top: 5%;
+    display: block;
+    background-color: #888888;
+    overflow: hidden;
+}
+
+#container-tools #sql-editor {
+    width: 76%;
+    height: 100%;
+    padding: 1%;
+    background-color: #454545;
+    float: left;
+}
+
+#container-tools #sql-editor #input-sql-editor {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 1%;
+    font-family: "Courier New";
+    color: #0000FF;
+    overflow: auto;
+    border: solid #0000FF 1px;
+    background-color: #E6E6E6;
+}
+
+#container-tools #box-paleta {
+    width: 24%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    padding: 1%;
+    color: #3FD3CE;
+    background-color: #4000A0;
+}
+
+#container-tools #box-paleta input {
+    display: block;
+    margin: 5px auto;
+    color: #1C005A;
+    width: 98%;
+}
+
+#container-tools #box-paleta #bt-exec-sql-editor {
+    width: 50% !important;
+    margin: 10px auto;
+}
+
+#container-tools #box-paleta #bt-exec-sql-editor-test {
+    width: 50% !important;
+    margin: 10px auto;
+}
+
+#resultados {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    overflow: auto;
+    background-color: #4000A0 !important;
+    position: fixed;
+    z-index: 1000;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.padding-footer {
+    padding: 30px;
+}
+
+#resultados table {
+    width: auto;
+    margin: 0px auto;
+}
+
+table, thead, tbody, th, tr, td {
+    border: none;
+    text-align: center;
+    background-color: #4000A0 !important;
+}
+
+td {
+    padding: 3px;
+    color: #0b58a2;
+    border-bottom: solid #ABABAB 1px !important;
+    background-color: #FFFFFF !important;
+}
+
+th {
+    padding: 10px;
+    font-size: 15px;
+    color: #FFFFFF;
+    border-bottom: solid #0d47a1 2px !important;
+    background-color: #4000A0 !important;
+}
+#select-logs {
+    width: 90%;
+}
+
+#box-conteiner-login {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    background: rgb(90,54,181);
+    background: linear-gradient(305deg, rgba(90,54,181,0.8407563709077381) 0%, rgba(29,23,42,1) 100%);
+}
+
+#login-box {
+    color: #3FD3CE;
+    text-align: left;
+    width: 26%;
+    height: 60%;
+    margin: 0px;
+    padding: 2%;
+    position: fixed;
+    z-index: 1000;
+    top: 15%;
+    left: 37%;
+    background-image: url("../img/box-login-back.png");
+    background-repeat: repeat;
+    border: solid #3FD3CE 1px;
+}
+
+#login-box input {
+    width: 98%;
+    background-color: #F1F1E3;
+    color: #151515;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+
+#login-box .btn {
+    display: block;
+    width: 80px;
+    margin: 30px auto;
+}
+
+#logger-view-quit {
+    text-align: center;
+    font-family: "Arial", "sans-serif";
+    width: 100%;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 100px auto;
+}
+
+#a-quit {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#sqleditor-quit {
+    text-align: center;
+    font-family: "Arial", "sans-serif";
+    width: 100%;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px auto;
+}
+
+#a-quit {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#new-request {
+    width: 20px;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    background-color: #2aabd2;
+    color: #FFFFFF;
+    font-size: 15px;
+    position: fixed;
+    z-index: 3000;
+    top: 40%;
+    left: 0px;
+    display: none;
+    border-radius: 0px 8px 8px 0px;
+}
+
+#bt-new-request {
+    width: 20px;
+    height: 80px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    background-color: #2aabd2;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 0px 8px 8px 0px;
+}
